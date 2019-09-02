@@ -10,6 +10,10 @@ const server = http.createServer((req, res) => {
      case '/about':
           res.end('<h1>About Page</h1>')
           braak;
+     case '/Contact':
+               res.end('<h1>Contact Page</h1>')
+               braak;
+
      default:
           res.end('<h1>Page Not Found<h1></h1>')
           break;
